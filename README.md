@@ -22,14 +22,22 @@ and "project-as-a-package".
 
 ### Default R Studio login
 
-username: rstudio
-password: rstudio1
+username: `rstudio`
+password: `rstudio1`
 
 Update password in `docker-compose.yml` at the following location:
 
 ```
 environment:
  - PASSWORD=rstudio1
+```
+
+### Package Instalation
+
+Access to rstudio consose as root:
+
+```
+ docker exec -it rstudio bash
 ```
 
 ## Docker Ubuntu Server Installation/Set-up
