@@ -24,14 +24,15 @@ environment:
  - PASSWORD=rstudio1
 ```
 
-## Docker App Deployment
+## Start
 
 ```
 docker-compose up -d
 ```
 
-## Console access as root
+## Stop
 
 ```
- docker exec -it rstudio bash
+docker-compose down
 ```
+
